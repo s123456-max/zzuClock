@@ -1,4 +1,4 @@
-# zzuClock使用指南
+# zzuClock使用指南（测试中）
 
 ## 1. 打开最右边的settings ↓
 
