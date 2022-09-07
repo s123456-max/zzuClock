@@ -53,11 +53,11 @@
 
 ![图片](https://user-images.githubusercontent.com/59247205/188792145-04bc7822-a4e2-46eb-b389-9840d5b4ad43.png)
 
-## 7. 然后切换到Actions，选择zzuClock
+## （立即触发，测试可选）7. 然后切换到Actions，选择zzuClock
 
 ![图片](https://user-images.githubusercontent.com/59247205/188794178-780c4315-3b4e-4818-a6d8-b6f50723cc12.png)
 
-## 8. 点击Run workflow开始运行
+## （立即触发，测试可选）8. 点击Run workflow开始运行
 
 ![图片](https://user-images.githubusercontent.com/59247205/188794383-fb3d695c-feb4-4cde-9441-f2862a828310.png)
 
