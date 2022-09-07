@@ -35,6 +35,6 @@ jobs:
           
       - name: Working
         env:
-            id: ${{secrets.uid}}
+            uid: ${{secrets.uid}}
             upw: ${{secrets.upw}}
         run: python clock.py
