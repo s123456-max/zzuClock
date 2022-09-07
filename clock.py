@@ -124,4 +124,4 @@ else:
     yag.send(to=os.environ["email"], subject='zzuClock打卡失败！', contents=contents)
     yag.close()
     print('打卡失败！')
-    print('失败原因：'+soup.find("li").text)
+    print('失败原因：'+ soup.find("li").text)
