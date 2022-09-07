@@ -57,6 +57,8 @@
 
 ![图片](https://user-images.githubusercontent.com/59247205/188794383-fb3d695c-feb4-4cde-9441-f2862a828310.png)
 
-## 9. 自动打卡后的邮件提醒（每天凌晨两点自动打卡） ↓
+## 9. 自动打卡后的邮件提醒（每天凌晨十二点和两点自动打卡，应该会有一两个小时的延迟） ↓
+
+![图片](https://user-images.githubusercontent.com/59247205/188823438-e895ef67-05f1-4023-895e-e8430139f4da.png)
 
 ## 完结! :boom:
