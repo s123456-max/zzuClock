@@ -12,6 +12,9 @@
 
 ![图片](https://user-images.githubusercontent.com/59247205/188791007-9444de52-9b6e-40bb-ac10-2095b4bc0982.png)
 
+## 4. 按下图所示添加参数 ↓
+
+
 # 参数uid（学号）
 > 示例：201984110513
 # 参数upw（密码）
