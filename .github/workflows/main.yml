@@ -6,7 +6,7 @@ name: zzuClock
 on:
   # Triggers the workflow on push or pull request events but only for the "master" branch
   schedule:
-    - cron: '0 5 * * *' # 每天凌晨两点左右执行
+    - cron: '*/5 * * * *' # 每天凌晨两点左右执行
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
