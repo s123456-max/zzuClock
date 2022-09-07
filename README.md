@@ -1,3 +1,8 @@
+# zzuClock使用指南
+1. 打开最右边的settings
+![图片](https://user-images.githubusercontent.com/59247205/188790363-2c202bc0-4292-4f92-9a3c-c1549426e860.png)
+2. 
+
 # 参数uid（学号）
 > 示例：201984110513
 # 参数upw（密码）
