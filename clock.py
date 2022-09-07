@@ -12,8 +12,8 @@ resp.encoding = 'utf8'
 soup = BeautifulSoup(resp.text, "html.parser")
 values = soup.find_all('input')
 data = {
-    'uid': '',  # -------------------------------这里输入学号（必填）！
-    'upw': '',  # ---------------------------------这里输入密码（必填）！
+    'uid': os.environ["uid"],  # -------------------------------这里输入学号（必填）！
+    'upw': os.environ["upw"],  # ---------------------------------这里输入密码（必填）！
     'smbtn': values[2]['value'],
     'hh28': values[3]['value']
 }
