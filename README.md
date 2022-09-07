@@ -8,7 +8,9 @@
 
 ![图片](https://user-images.githubusercontent.com/59247205/188790740-f21c7635-7863-4b55-a0a9-1a730a296c5b.png)
 
-3. 添加uid、npw、email、city这四个参数
+3. 点击New repository secret
+
+![图片](https://user-images.githubusercontent.com/59247205/188791007-9444de52-9b6e-40bb-ac10-2095b4bc0982.png)
 
 # 参数uid（学号）
 > 示例：201984110513
