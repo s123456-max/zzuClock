@@ -49,8 +49,11 @@
 
 ![图片](https://user-images.githubusercontent.com/59247205/188792145-04bc7822-a4e2-46eb-b389-9840d5b4ad43.png)
 
-## 7. 然后切换到Actions，点击Run workflow开始运行 ↓
+## 7. 然后切换到Actions，选择zzuClock
 
+![图片](https://user-images.githubusercontent.com/59247205/188794178-780c4315-3b4e-4818-a6d8-b6f50723cc12.png)
+
+## 8.点击Work
 ![图片](https://user-images.githubusercontent.com/59247205/188793800-bc0b693b-0627-4897-bd4b-98ea874d9e89.png)
 
 ## 8. 自动打卡后的邮件提醒（每天凌晨两点自动打卡） ↓
