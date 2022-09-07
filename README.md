@@ -6,7 +6,7 @@
 
 ## 1. 打开最右边的settings ↓
 
-![图片](https://user-images.githubusercontent.com/59247205/188790363-2c202bc0-4292-4f92-9a3c-c1549426e860.png)
+![图片](https://user-images.githubusercontent.com/59247205/188884799-ad763d53-180d-4d7b-ba70-fd0027cc474b.png)
 
 ## 2. 打开Secrets里的Actions ↓
 
