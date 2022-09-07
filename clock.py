@@ -7,13 +7,13 @@ import os
 headers = {
     "User-Agent": 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36 Edg/105.0.1343.27'
 }
-proxies = {
-    "http": "http://117.160.132.37:9091"
-}
+# proxies = {
+#     "http": "http://117.160.132.37:9091"
+# }
 obj = re.compile('parent.window.location="(?P<url>.*?)"', re.S)
 obj1 = re.compile('失败', re.S)
 obj2 = re.compile('<div style="width:100%;height:30px;"></div>(?P<success>.*?)onclick="window.location', re.S)
-resp = requests.post('https://jksb.v.zzu.edu.cn/vls6sss/zzujksb.dll/first0', headers=headers, proxies=proxies)
+resp = requests.post('https://jksb.v.zzu.edu.cn/vls6sss/zzujksb.dll/first0', headers=headers)
 resp.encoding = 'utf8'
 soup = BeautifulSoup(resp.text, "html.parser")
 values = soup.find_all('input')
