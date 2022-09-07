@@ -53,17 +53,10 @@
 
 ![图片](https://user-images.githubusercontent.com/59247205/188794178-780c4315-3b4e-4818-a6d8-b6f50723cc12.png)
 
-## 8. 点击Work
-
-![图片](https://user-images.githubusercontent.com/59247205/188793800-bc0b693b-0627-4897-bd4b-98ea874d9e89.png)
-
-## 9. 点击Run workflow开始运行
+## 8. 点击Run workflow开始运行
 
 ![图片](https://user-images.githubusercontent.com/59247205/188794383-fb3d695c-feb4-4cde-9441-f2862a828310.png)
 
-## 10. 自动打卡后的邮件提醒（每天凌晨两点自动打卡） ↓
-
-
+## 9. 自动打卡后的邮件提醒（每天凌晨两点自动打卡） ↓
 
 ## 完结! :boom:
-
