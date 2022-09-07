@@ -8,6 +8,10 @@
 
 ![图片](https://user-images.githubusercontent.com/59247205/189002466-0a18f7a2-b71d-47aa-9a3e-c1cc037f7099.png)
 
+2. 经过大量的测试，除了之前出现识别不准的情况（已解决），还会有ssl问题：
+
+![图片](https://user-images.githubusercontent.com/59247205/189003503-23974747-de04-4d6e-a844-e54d5536d6aa.png)
+
 ## 0. 首先fork这个仓库 ↓
 
 ![图片](https://user-images.githubusercontent.com/59247205/188881805-fbfe06ff-e014-459b-9c38-e10dcb50e638.png)
