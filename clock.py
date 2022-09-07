@@ -3,12 +3,12 @@ from bs4 import BeautifulSoup
 import re
 import os
 
-proxies = {
-    "http": "http://117.160.132.37:9091"
-}
+# proxies = {
+#     "http": "http://117.160.132.37:9091"
+# }
 obj = re.compile('parent.window.location="(?P<url>.*?)"', re.S)
 obj1 = re.compile('失败', re.S)
-resp = requests.post('https://jksb.v.zzu.edu.cn/vls6sss/zzujksb.dll/first0', proxies=proxies)
+resp = requests.post('https://jksb.v.zzu.edu.cn/vls6sss/zzujksb.dll/first0')
 resp.encoding = 'utf8'
 soup = BeautifulSoup(resp.text, "html.parser")
 values = soup.find_all('input')
