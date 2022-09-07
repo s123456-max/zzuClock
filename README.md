@@ -1,5 +1,7 @@
 # zzuClock使用指南（测试中）
 
+## 0. 首先fork这个仓库 ↓
+
 ## 1. 打开最右边的settings ↓
 
 ![图片](https://user-images.githubusercontent.com/59247205/188790363-2c202bc0-4292-4f92-9a3c-c1549426e860.png)
