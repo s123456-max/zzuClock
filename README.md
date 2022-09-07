@@ -49,5 +49,9 @@
 
 ![图片](https://user-images.githubusercontent.com/59247205/188792145-04bc7822-a4e2-46eb-b389-9840d5b4ad43.png)
 
+## 7. 自动打卡后的邮件提醒（每天凌晨两点自动打卡） ↓
+
+
+
 ## 完结! :boom:
 
