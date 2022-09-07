@@ -2,6 +2,8 @@
 
 ## 0. 首先fork这个仓库 ↓
 
+![图片](https://user-images.githubusercontent.com/59247205/188881805-fbfe06ff-e014-459b-9c38-e10dcb50e638.png)
+
 ## 1. 打开最右边的settings ↓
 
 ![图片](https://user-images.githubusercontent.com/59247205/188790363-2c202bc0-4292-4f92-9a3c-c1549426e860.png)
