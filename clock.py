@@ -4,13 +4,16 @@ import re
 import yagmail
 import os
 
+headers = {
+    "User-Agent": 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36 Edg/105.0.1343.27'
+}
 # proxies = {
 #     "http": "http://117.160.132.37:9091"
 # }
 obj = re.compile('parent.window.location="(?P<url>.*?)"', re.S)
 obj1 = re.compile('失败', re.S)
 obj2 = re.compile('<div style="width:100%;height:30px;"></div>(?P<success>.*?)onclick="window.location', re.S)
-resp = requests.post('https://jksb.v.zzu.edu.cn/vls6sss/zzujksb.dll/first0', verify=False)
+resp = requests.post('https://jksb.v.zzu.edu.cn/vls6sss/zzujksb.dll/first0', headers=headers)
 resp.encoding = 'utf8'
 soup = BeautifulSoup(resp.text, "html.parser")
 values = soup.find_all('input')
@@ -20,7 +23,7 @@ data = {
     'smbtn': values[2]['value'],
     'hh28': values[3]['value']
 }
-resp = requests.post("https://jksb.v.zzu.edu.cn/vls6sss/zzujksb.dll/login", data=data, verify=False)
+resp = requests.post("https://jksb.v.zzu.edu.cn/vls6sss/zzujksb.dll/login", data=data, headers=headers)
 resp.encoding = 'utf8'
 url = obj.search(resp.text).group('url')
 resp = requests.get(url=url)
@@ -40,7 +43,7 @@ data = {
     'ptopid': values[5]['value'],
     'sid': values[6]['value'],
 }
-resp = requests.post('https://jksb.v.zzu.edu.cn/vls6sss/zzujksb.dll/jksb', data=data, verify=False)
+resp = requests.post('https://jksb.v.zzu.edu.cn/vls6sss/zzujksb.dll/jksb', data=data, headers=headers)
 resp.encoding = 'utf8'
 soup = BeautifulSoup(resp.text, "html.parser")
 values = soup.find_all('input')
@@ -53,7 +56,7 @@ data = {
     'client_id': 'WNChcFVChONBFqX6xmrkMDMV',
     'client_secret': 'ou9XkXXPGQ5tIsqqhYFsrP0ZY0gch9dD'
 }
-resp = requests.post('https://aip.baidubce.com/oauth/2.0/token', data=data, verify=False)
+resp = requests.post('https://aip.baidubce.com/oauth/2.0/token', data=data, headers=headers)
 access_token = resp.json()['access_token']
 data = {
     'url': img
@@ -61,7 +64,7 @@ data = {
 headers = {
     'content-type': 'application/x-www-form-urlencoded'
 }
-resp = requests.post('https://aip.baidubce.com/rest/2.0/ocr/v1/accurate_basic?access_token='+access_token, data=data, headers=headers, verify=False)
+resp = requests.post('https://aip.baidubce.com/rest/2.0/ocr/v1/accurate_basic?access_token='+access_token, data=data, headers=headers)
 print(resp.text)
 results = resp.json()['words_result'][0]['words']
 num_dict = {
@@ -109,7 +112,7 @@ data = {
     'ptopid': values[38]['value'],
     'sid': values[39]['value']
 }
-resp = requests.post("https://jksb.v.zzu.edu.cn/vls6sss/zzujksb.dll/jksb", data=data, verify=False)
+resp = requests.post("https://jksb.v.zzu.edu.cn/vls6sss/zzujksb.dll/jksb", data=data, headers=headers)
 resp.encoding = 'utf8'
 soup = BeautifulSoup(resp.text, "html.parser")
 yag = yagmail.SMTP(user='1586924294@qq.com', password='xrpalckormpjjijh', host='smtp.qq.com')
