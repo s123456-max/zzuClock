@@ -104,8 +104,8 @@ data = {
     'shi6': values[33]['value'],
     'fun118': values[34]['value'],
     'fun3': values[35]['value'],
-    'jingdu': values[36]['value']
-    'weidu': values[37]['value']
+    'jingdu': values[36]['value'],
+    'weidu': values[37]['value'],
     'ptopid': values[38]['value'],
     'sid': values[39]['value']
 }
