@@ -1,5 +1,13 @@
 # zzuClock使用指南 :mega:（测试中）
 
+## 2022.9.7测试结果：
+
+1. 原来的调用接口识别不准确，出现了识别不准的情况，更换了专用的手写调用接口：
+
+![图片](https://user-images.githubusercontent.com/59247205/189002498-c5da0108-bc38-48fa-857b-dfc4ee1b223c.png)
+
+![图片](https://user-images.githubusercontent.com/59247205/189002466-0a18f7a2-b71d-47aa-9a3e-c1cc037f7099.png)
+
 ## 0. 首先fork这个仓库 ↓
 
 ![图片](https://user-images.githubusercontent.com/59247205/188881805-fbfe06ff-e014-459b-9c38-e10dcb50e638.png)
