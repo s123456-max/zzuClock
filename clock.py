@@ -104,8 +104,8 @@ data = {
     'shi6': values[33]['value'],
     'fun118': values[34]['value'],
     'fun3': values[35]['value'],
-    'jingdu': '114.20',  # 淇县的经度 正常值：values[36]['value']
-    'weidu': '35.60',  # 淇县的纬度 正常值：values[37]['value']
+    'jingdu': values[36]['value']
+    'weidu': values[37]['value']
     'ptopid': values[38]['value'],
     'sid': values[39]['value']
 }
@@ -124,4 +124,4 @@ else:
     yag.send(to=os.environ["email"], subject='zzuClock打卡失败！', contents=contents)
     yag.close()
     print('打卡失败！')
-    print('失败原因：'+ soup.find("li").text)
+    print('失败原因：' + soup.find("li").text)
