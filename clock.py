@@ -2,6 +2,7 @@ import requests
 from bs4 import BeautifulSoup
 import re
 import yagmail
+import os
 
 # proxies = {
 #     "http": "http://117.160.132.37:9091"
