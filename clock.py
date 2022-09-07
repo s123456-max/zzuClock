@@ -1,16 +1,15 @@
 import requests
 from bs4 import BeautifulSoup
 import re
-import os
 import yagmail
 
-proxies = {
-    "http": "http://58.220.95.30:10174"
-}
+# proxies = {
+#     "http": "http://117.160.132.37:9091"
+# }
 obj = re.compile('parent.window.location="(?P<url>.*?)"', re.S)
 obj1 = re.compile('失败', re.S)
 obj2 = re.compile('<div style="width:100%;height:30px;"></div>(?P<success>.*?)onclick="window.location', re.S)
-resp = requests.post('https://jksb.v.zzu.edu.cn/vls6sss/zzujksb.dll/first0', proxies=proxies)
+resp = requests.post('https://jksb.v.zzu.edu.cn/vls6sss/zzujksb.dll/first0')
 resp.encoding = 'utf8'
 soup = BeautifulSoup(resp.text, "html.parser")
 values = soup.find_all('input')
