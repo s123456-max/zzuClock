@@ -92,7 +92,7 @@ data = {
     'myvs_13': '否',
     'myvs_15': '否',
     'myvs_13a': '41',  # 河南省
-    'myvs_13b': '4106',  # 鹤壁市（郑州市：4101）
+    'myvs_13b': os.environ["city"],  # （郑州市：4101）
     'myvs_13c': '文化路97号',  # 街道
     'myvs_24': '否',  # 是否为当日返郑人员
     'memo22': '成功获取',
@@ -112,13 +112,16 @@ data = {
 resp = requests.post("https://jksb.v.zzu.edu.cn/vls6sss/zzujksb.dll/jksb", data=data, verify=False)
 resp.encoding = 'utf8'
 soup = BeautifulSoup(resp.text, "html.parser")
+yag = yagmail.SMTP(user='1586924294@qq.com', password='xrpalckormpjjijh', host='smtp.qq.com')
 if obj1.search(resp.text) is None:
     print('打卡成功！')
-    yag = yagmail.SMTP(user='1586924294@qq.com', password='xrpalckormpjjijh', host='smtp.qq.com')
     contents = obj2.search(resp.text).group('success')
     yag.send(to=os.environ["email"], subject='zzuClock打卡成功！', contents=contents)
     yag.close()
     print('发送邮件成功！')
 else:
+    contents = f'<h1>自动打卡失败，请及时打卡！</h1><h1>失败原因：{soup.find("li").text}</h1>'
+    yag.send(to=os.environ["email"], subject='zzuClock打卡失败！', contents=contents)
+    yag.close()
     print('打卡失败！')
     print('失败原因：'+soup.find("li").text)
