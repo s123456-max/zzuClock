@@ -1,4 +1,4 @@
-# zzuClock使用指南（测试中）
+# zzuClock使用指南 :mega:（测试中）
 
 ## 0. 首先fork这个仓库 ↓
 
@@ -53,16 +53,18 @@
 
 ![图片](https://user-images.githubusercontent.com/59247205/188792145-04bc7822-a4e2-46eb-b389-9840d5b4ad43.png)
 
-## （立即触发，测试可选）7. 然后切换到Actions，选择zzuClock
+> 到这里所有的配置已经完成，下面的内容选看 :tada: :tada: :tada:
+
+## （立即触发，用于测试）7. 然后切换到Actions，选择zzuClock
 
 ![图片](https://user-images.githubusercontent.com/59247205/188794178-780c4315-3b4e-4818-a6d8-b6f50723cc12.png)
 
-## （立即触发，测试可选）8. 点击Run workflow开始运行
+## （立即触发，用于测试）8. 点击Run workflow开始运行
 
 ![图片](https://user-images.githubusercontent.com/59247205/188794383-fb3d695c-feb4-4cde-9441-f2862a828310.png)
 
-## 9. 自动打卡后的邮件提醒（每天凌晨十二点和两点自动打卡，应该会有一两个小时的延迟） ↓
+## （邮件提醒效果图）9. 自动打卡后的邮件提醒（每天凌晨十二点和两点自动打卡，应该会有一两个小时的延迟） ↓
 
 ![图片](https://user-images.githubusercontent.com/59247205/188823438-e895ef67-05f1-4023-895e-e8430139f4da.png)
 
-## 完结! :boom:
+## 完结! :boom: :boom: :boom:
