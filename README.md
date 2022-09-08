@@ -8,9 +8,13 @@
 
 ![图片](https://user-images.githubusercontent.com/59247205/189002466-0a18f7a2-b71d-47aa-9a3e-c1cc037f7099.png)
 
-2. 经过大量的测试，除了之前出现识别不准的情况（已解决），还会有ssl问题：
+2. 经过大量的测试，会有两个问题，第一是识别不准的情况（上一步已解决），第二是会有ssl问题：
 
 ![图片](https://user-images.githubusercontent.com/59247205/189003503-23974747-de04-4d6e-a844-e54d5536d6aa.png)
+
+![图片](https://user-images.githubusercontent.com/59247205/189004494-138f30ae-44a2-49c7-b78f-5764d278eb6d.png)
+
+3. 邮箱发送失败，这个是由于被qq服务器退回
 
 ## 0. 首先fork这个仓库 ↓
 
