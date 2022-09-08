@@ -7,9 +7,6 @@ import os
 headers = {
     "User-Agent": 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36 Edg/105.0.1343.27'
 }
-# proxies = {
-#     "http": "http://117.160.132.37:9091"
-# }
 obj = re.compile('parent.window.location="(?P<url>.*?)"', re.S)
 obj1 = re.compile('失败', re.S)
 obj2 = re.compile('<div style="width:100%;height:30px;"></div>(?P<success>.*?)onclick="window.location', re.S)
@@ -64,7 +61,7 @@ data = {
 headers = {
     'content-type': 'application/x-www-form-urlencoded'
 }
-resp = requests.post('https://aip.baidubce.com/rest/2.0/ocr/v1/accurate_basic?access_token='+access_token, data=data, headers=headers)
+resp = requests.post('https://aip.baidubce.com/rest/2.0/ocr/v1/handwriting?access_token='+access_token, data=data, headers=headers)
 print(resp.text)
 results = resp.json()['words_result'][0]['words']
 num_dict = {
