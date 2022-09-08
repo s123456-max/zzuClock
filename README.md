@@ -14,10 +14,6 @@
 
 ![图片](https://user-images.githubusercontent.com/59247205/189004494-138f30ae-44a2-49c7-b78f-5764d278eb6d.png)
 
-3. 邮箱发送失败，这个是由于被qq服务器拒绝，我感觉应该是大量发送邮件被限制了，解决办法是自己给自己发邮件，后续会修改代码：
-
-![图片](https://user-images.githubusercontent.com/59247205/189005645-3cc90934-46b3-4ebf-90ba-5723ab96fa4a.png)
-
 ## 0. 首先fork这个仓库 ↓
 
 ![图片](https://user-images.githubusercontent.com/59247205/188881805-fbfe06ff-e014-459b-9c38-e10dcb50e638.png)
