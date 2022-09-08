@@ -8,7 +8,7 @@
 
 ![图片](https://user-images.githubusercontent.com/59247205/189003503-23974747-de04-4d6e-a844-e54d5536d6aa.png)
 
-![图片](https://user-images.githubusercontent.com/59247205/189008023-071483a8-8064-466c-9e89-a1997f5a2c55.png)
+![图片](https://user-images.githubusercontent.com/59247205/189008115-1d44d078-b5be-40e1-bb2f-fcf000a3d6f4.png)
 
 2. 可能会有ssl问题（随机出现，定时执行两次任务中出现了一次）：
 
