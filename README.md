@@ -18,8 +18,6 @@
 
 ![图片](https://user-images.githubusercontent.com/59247205/189005645-3cc90934-46b3-4ebf-90ba-5723ab96fa4a.png)
 
-![图片](https://user-images.githubusercontent.com/59247205/189005401-13d4081f-fe67-418d-8335-7a6f8462c334.png)
-
 ## 0. 首先fork这个仓库 ↓
 
 ![图片](https://user-images.githubusercontent.com/59247205/188881805-fbfe06ff-e014-459b-9c38-e10dcb50e638.png)
