@@ -8,7 +8,7 @@
 
 ![图片](https://user-images.githubusercontent.com/59247205/189002466-0a18f7a2-b71d-47aa-9a3e-c1cc037f7099.png)
 
-2. 经过大量的测试，会有两个问题，第一是识别不准的情况（上一步已解决），第二是会有ssl问题：
+2. 经过大量的测试，会有两个问题，第一是识别不准的情况（上一步已解决），第二是会有ssl问题（随机出现）：
 
 ![图片](https://user-images.githubusercontent.com/59247205/189003503-23974747-de04-4d6e-a844-e54d5536d6aa.png)
 
