@@ -14,6 +14,10 @@
 
 ![图片](https://user-images.githubusercontent.com/59247205/189004494-138f30ae-44a2-49c7-b78f-5764d278eb6d.png)
 
+3. 非常致命的安全性问题，我把我邮箱授权码写到代码里，泄露出去了，导致被其他人利用发垃圾邮件，后续马上更换为自己给自己发邮件：
+
+![图片](https://user-images.githubusercontent.com/59247205/189005999-edc8741e-e61f-46a4-8ef0-52cec374188c.png)
+
 ## 0. 首先fork这个仓库 ↓
 
 ![图片](https://user-images.githubusercontent.com/59247205/188881805-fbfe06ff-e014-459b-9c38-e10dcb50e638.png)
