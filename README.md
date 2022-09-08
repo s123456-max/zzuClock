@@ -83,6 +83,6 @@
 
 ## （邮件提醒效果图）9. 自动打卡后的邮件提醒（每天凌晨两点自动打卡，应该会有一两个小时的延迟） ↓
 
-![图片](https://user-images.githubusercontent.com/59247205/188823438-e895ef67-05f1-4023-895e-e8430139f4da.png)
+![图片](https://user-images.githubusercontent.com/59247205/189049521-b26e1b9e-8542-4147-a0ae-097df04738a0.png)
 
 ## 完结! :boom: :boom: :boom:
