@@ -10,7 +10,7 @@
 
 ![图片](https://user-images.githubusercontent.com/59247205/189002466-0a18f7a2-b71d-47aa-9a3e-c1cc037f7099.png)
 
-2. 会有ssl问题（随机出现，定时执行两次任务中出现了一次）：
+2. 可能会有ssl问题（随机出现，定时执行两次任务中出现了一次）：
 
 ![图片](https://user-images.githubusercontent.com/59247205/189004494-138f30ae-44a2-49c7-b78f-5764d278eb6d.png)
 
