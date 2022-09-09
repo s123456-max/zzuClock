@@ -15,8 +15,8 @@ resp.encoding = 'utf8'
 soup = BeautifulSoup(resp.text, "html.parser")
 values = soup.find_all('input')
 data = {
-    'uid': os.environ("uid"),  # -------------------------------这里输入学号（必填）！
-    'upw': os.environ("upw"),  # ---------------------------------这里输入密码（必填）！
+    'uid': os.environ["uid"],  # -------------------------------这里输入学号（必填）！
+    'upw': os.environ["upw"],  # ---------------------------------这里输入密码（必填）！
     'smbtn': values[2]['value'],
     'hh28': values[3]['value']
 }
@@ -92,7 +92,7 @@ if soup.find('img') is not None:
         'myvs_13': '否',
         'myvs_15': '否',
         'myvs_13a': '41',  # 河南省
-        'myvs_13b': os.environ("city"),  # （郑州市：4101）
+        'myvs_13b': os.environ["city"],  # （郑州市：4101）
         'myvs_13c': '文化路97号',  # 街道
         'myvs_24': '否',  # 是否为当日返郑人员
         'memo22': '成功获取',
@@ -123,7 +123,7 @@ else:
         'myvs_13': '否',
         'myvs_15': '否',
         'myvs_13a': '41',  # 河南省
-        'myvs_13b': os.environ("city"),  # （郑州市：4101）
+        'myvs_13b': os.environ["city"],  # （郑州市：4101）
         'myvs_13c': '文化路97号',  # 街道
         'myvs_24': '否',  # 是否为当日返郑人员
         'memo22': '成功获取',
@@ -147,12 +147,12 @@ yag = yagmail.SMTP(user='1586924294@qq.com', password='xrpalckormpjjijh', host='
 if obj1.search(resp.text) is None:
     print('打卡成功！')
     contents = obj2.search(resp.text).group('success')
-    yag.send(to=os.environ("email"), subject='zzuClock打卡成功！', contents=contents)
+    yag.send(to=os.environ["email"], subject='zzuClock打卡成功！', contents=contents)
     yag.close()
     print('发送邮件成功！')
 else:
     contents = f'<h1>自动打卡失败，请及时打卡！</h1><h1>失败原因：{soup.find("li").text}</h1>'
-    yag.send(to=os.environ("email"), subject='zzuClock打卡失败！', contents=contents)
+    yag.send(to=os.environ["email"], subject='zzuClock打卡失败！', contents=contents)
     yag.close()
     print('打卡失败！')
     print('失败原因：' + soup.find("li").text)
