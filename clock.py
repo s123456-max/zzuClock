@@ -21,6 +21,7 @@ data = {
     'hh28': values[3]['value']
 }
 resp = requests.post("https://jksb.v.zzu.edu.cn/vls6sss/zzujksb.dll/login", data=data)
+print(resp.text)
 resp.encoding = 'utf8'
 url = obj.search(resp.text).group('url')
 resp = requests.get(url=url)
