@@ -47,9 +47,8 @@ data = {
 resp = requests.post('https://jksb.v.zzu.edu.cn/vls6sss/zzujksb.dll/jksb', data=data)
 resp.encoding = 'utf8'
 page = BeautifulSoup(resp.text, "html.parser")
-print(page.find("input", attrs={"name": "did"})['value'])
 # 如果有验证码
-if soup.find('img') is not None:
+if page.find('img') is not None:
     img = soup.find('img')['src']
     # 这里是对验证码的提取（百度文字识别接口）
     data = {
