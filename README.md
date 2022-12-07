@@ -1,4 +1,7 @@
-https://img.shields.io/github/last-commit/s123456-max/zzuClock
+<div align=center>
+<img src="https://img.shields.io/github/last-commit/s123456-max/zzuClock" width="300"/> <img src="https://img.shields.io/github/forks/s123456-max/zzuClock" width="155"/> <img src="https://img.shields.io/github/stars/s123456-max/zzuClock" width="140"/>
+</div>
+
 # zzuClock使用指南 :mega:（手写文字对应数字验证码+无验证码，每天凌晨两点自动打卡，邮件提醒）
 
 ## 2022.12.7 增加请求参数```ghdn28```
