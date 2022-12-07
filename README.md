@@ -1,5 +1,5 @@
 <div align=center>
-<img src="https://img.shields.io/github/last-commit/s123456-max/zzuClock" width="300"/> <img src="https://img.shields.io/github/forks/s123456-max/zzuClock" margin="200 0 0 0" width="155"/> <img src="https://img.shields.io/github/stars/s123456-max/zzuClock" width="140"/>
+<img src="https://img.shields.io/github/last-commit/s123456-max/zzuClock" width="300"/> <img src="https://img.shields.io/github/forks/s123456-max/zzuClock" width="155"/> <img src="https://img.shields.io/github/stars/s123456-max/zzuClock" width="140"/>
 </div>
 
 # zzuClock使用指南 :mega:（手写文字对应数字验证码+无验证码，每天凌晨两点自动打卡，邮件提醒）
