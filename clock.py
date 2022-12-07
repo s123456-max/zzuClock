@@ -49,7 +49,7 @@ resp.encoding = 'utf8'
 page = BeautifulSoup(resp.text, "html.parser")
 # 如果有验证码
 if page.find('img') is not None:
-    img = soup.find('img')['src']
+    img = page.find('img')['src']
     # 这里是对验证码的提取（百度文字识别接口）
     data = {
         'grant_type': 'client_credentials',
