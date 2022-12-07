@@ -46,8 +46,7 @@ data = {
 }
 resp = requests.post('https://jksb.v.zzu.edu.cn/vls6sss/zzujksb.dll/jksb', data=data)
 resp.encoding = 'utf8'
-soup = BeautifulSoup(resp.text, "html.parser")
-values = soup.find_all('input')
+page = BeautifulSoup(resp.text, "html.parser")
 print(resp.text)
 # 如果有验证码
 if soup.find('img') is not None:
@@ -101,18 +100,18 @@ if soup.find('img') is not None:
         'myvs_13c': '文化路97号',  # 街道
         'myvs_24': '否',  # 是否为当日返郑人员
         'memo22': '成功获取',
-        'did': values[28]['value'],
-        'door': values[29]['value'],
-        'day6': values[30]['value'],
-        'men6': values[31]['value'],
-        'sheng6': values[32]['value'],
-        'shi6': values[33]['value'],
-        'fun118': values[34]['value'],
-        'fun3': values[35]['value'],
-        'jingdu': values[36]['value'],
-        'weidu': values[37]['value'],
-        'ptopid': values[38]['value'],
-        'sid': values[39]['value']
+        'did': page.find("input", attrs={"name": "did"})['value'],
+        'door': page.find("input", attrs={"name": "door"})['value'],
+        'day6': page.find("input", attrs={"name": "day6"})['value'],
+        'men6': page.find("input", attrs={"name": "men6"})['value'],
+        'sheng6': page.find("input", attrs={"name": "sheng6"})['value'],
+        'shi6': page.find("input", attrs={"name": "shi6"})['value'],
+        'fun3': page.find("input", attrs={"name": "fun3"})['value'],
+        'jingdu': page.find("input", attrs={"name": "jingdu"})['value'],
+        'weidu': page.find("input", attrs={"name": "weidu"})['value'],
+        'ghdn28': page.find("input", attrs={"name": "ghdn28"})['value'],
+        'ptopid': page.find("input", attrs={"name": "ptopid"})['value'],
+        'sid': page.find("input", attrs={"name": "sid"})['value']
     }
 else:
     data = {
@@ -132,18 +131,18 @@ else:
         'myvs_13c': '文化路97号',  # 街道
         'myvs_24': '否',  # 是否为当日返郑人员
         'memo22': '成功获取',
-        'did': values[27]['value'],
-        'door': values[28]['value'],
-        'day6': values[29]['value'],
-        'men6': values[30]['value'],
-        'sheng6': values[31]['value'],
-        'shi6': values[32]['value'],
-        'fun118': values[33]['value'],
-        'fun3': values[34]['value'],
-        'jingdu': values[35]['value'],
-        'weidu': values[36]['value'],
-        'ptopid': values[37]['value'],
-        'sid': values[38]['value']
+        'did': page.find("input", attrs={"name": "did"})['value'],
+        'door': page.find("input", attrs={"name": "door"})['value'],
+        'day6': page.find("input", attrs={"name": "day6"})['value'],
+        'men6': page.find("input", attrs={"name": "men6"})['value'],
+        'sheng6': page.find("input", attrs={"name": "sheng6"})['value'],
+        'shi6': page.find("input", attrs={"name": "shi6"})['value'],
+        'fun3': page.find("input", attrs={"name": "fun3"})['value'],
+        'jingdu': page.find("input", attrs={"name": "jingdu"})['value'],
+        'weidu': page.find("input", attrs={"name": "weidu"})['value'],
+        'ghdn28': page.find("input", attrs={"name": "ghdn28"})['value'],
+        'ptopid': page.find("input", attrs={"name": "ptopid"})['value'],
+        'sid': page.find("input", attrs={"name": "sid"})['value']
     }
 resp = requests.post("https://jksb.v.zzu.edu.cn/vls6sss/zzujksb.dll/jksb", data=data)
 resp.encoding = 'utf8'
