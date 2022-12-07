@@ -47,7 +47,7 @@ data = {
 resp = requests.post('https://jksb.v.zzu.edu.cn/vls6sss/zzujksb.dll/jksb', data=data)
 resp.encoding = 'utf8'
 page = BeautifulSoup(resp.text, "html.parser")
-print(resp.text)
+print(page.find("input", attrs={"name": "did"})['value'])
 # 如果有验证码
 if soup.find('img') is not None:
     img = soup.find('img')['src']
