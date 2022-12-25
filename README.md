@@ -1,8 +1,10 @@
 <div align=center>
-<img src="https://img.shields.io/github/last-commit/s123456-max/zzuClock"/> <img src="https://img.shields.io/github/forks/s123456-max/zzuClock"/> <img src="https://img.shields.io/github/stars/s123456-max/zzuClock"/>
+<img src="https://img.shields.io/badge/Author-szx-orange" alt="szx" /> <img src="https://img.shields.io/github/last-commit/s123456-max/zzuClock"/> <img src="https://img.shields.io/github/forks/s123456-max/zzuClock"/> <img src="https://img.shields.io/github/stars/s123456-max/zzuClock"/>
 </div>
 
 # zzuClock使用指南 :mega:（手写文字对应数字验证码+无验证码，每天凌晨两点自动打卡，邮件提醒）
+
+## :bulb: 2022.12.25 打卡已结束，项目正式完结，见证了这一段历史。
 
 ## 2022.12.7 增加请求参数```ghdn28```
 
